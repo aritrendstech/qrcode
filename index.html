@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="folder.png">
+	<meta name="description" content="Convert your text into qr code.">
+	<style type="text/css">
+		iframe{
+			border-width: 0vh;
+		}
+		body{
+			margin: 0vh;
+			padding: 0vh;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<iframe src="https://aritrends.pythonanywhere.com/qrcode"></iframe>
+<script type="text/javascript">
+	document.getElementsByTagName('iframe')[0].style.height = window.innerHeight+"px";
+	document.getElementsByTagName('iframe')[0].style.width = window.innerWidth+"px";
+</script>
+</body>
+</html>
